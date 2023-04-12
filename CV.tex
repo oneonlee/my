@@ -1,0 +1,199 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headheight}{14pt}
+\renewcommand{\footskip}{10pt}
+
+% Set \headrulewidth to 0pt to remove the underline
+\renewcommand{\headrulewidth}{0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+%%%%%%%% Date automatically updates
+\newcommand{\nowdate}{\today}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+
+\fancyfoot{}
+\fancyfoot[C]{{\thepage} of \pageref{LastPage}}
+
+% I changed the link color, not a huge fan of cyan.
+\hypersetup{colorlinks,breaklinks,
+            urlcolor=[rgb]{0.0,0.0,0.0},
+            linkcolor=[rgb]{0,0,0}}
+
+\begin{document}
+    \pagestyle{fancy}
+    \thispagestyle{fancy}
+    
+    \begin{center}
+        {\LARGE{\bf{Dong-geon Lee}}\\}
+    \end{center}
+    
+    \vspace{-14pt}
+    
+    %----------HEADING-----------------
+    \begin{center} 
+        {\href{mailto:lee.dg.125@gmail.com}{lee.dg.125@gmail.com} \\}
+        {
+            ( \underline{\href{https://github.com/oneonlee}{GitHub}}, 
+            \underline{\href{https://www.linkedin.com/in/dong-geon-lee/}{LinkedIn}} )
+        }
+    \end{center}
+
+    %----------Research Interests-----------------
+    \section{\\Research Interests}
+    \begin{enumerate}[noitemsep, leftmargin=*,label={}]
+    \item{ Deep learning, Natural language processing, Data science, Weakly-supervised learning}
+    \end{enumerate}
+    
+    %-----------Education-----------------
+    \section{Education}
+    \begin{itemize}[leftmargin=*,label=]
+        \resumeSubheading
+        {\href{https://eng.inha.ac.kr/eng/index.do}{Inha University}}{Incheon, South Korea}
+          {Bachelor of Science in \href{http://bit.ly/3Uu4LTi}{Information and Communication Engineering}}{March 2018 - Present}
+            \begin{itemize}[label=\bullet]
+                \item{Expected Graduation Date: \textit{February 16, 2024}}
+                \item{GPA: 3.68 / 4.5}
+                \item{Relevant Coursework: \textit{AI Applications, Data Structure, Algorithm Capstone Design, \\ Signals and Systems, Database Capstone Design, Object Oriented Programming}}
+            \end{itemize}
+    \end{itemize}
+    
+    %---------------Research Experiences---------------------------
+    \section{Research Experiences}
+    \begin{itemize}[leftmargin=*,label=]
+        \resumeSubheading
+        {\href{http://dilab.inha.ac.kr/}{Data Intelligence Laboratory}}{\href{https://eng.inha.ac.kr/eng/index.do}{Inha University}, Incheon, South Korea}
+            {Research Intern (Advisor: \href{http://bit.ly/3zSrQ8F}{Prof. Wonik Choi}) }{November 2022 - Present}
+        \resumeSubheading
+        {Nursing Informatics Laboratory}{\href{https://eng.inha.ac.kr/eng/index.do}{Inha University}, Incheon, South Korea}
+            {Research Assistant (Advisor: \href{http://bit.ly/412nYOw}{Prof. Insook Cho})}{August 2021 - Present}
+    \end{itemize}
+    
+    %---------------Projects---------------------------
+    \section{Projects}
+    \begin{itemize}[leftmargin=*,label=]
+        \resumeSubheading
+        {Big Data-Driven Aviation Safety Management Technology}{Incheon, South Korea}
+            {\href{http://dilab.inha.ac.kr/}{Data Intelligence Laboratory}}{November 2022 - Present}
+            \begin{itemize}[label=\bullet]
+                \item{Development of keyphrase extraction model through semi-supervised learning}
+            \end{itemize}
+        \resumeSubheading
+        {FallSafe: Reducing Falls with Clinical Data}{Incheon, South Korea}
+            {Nursing Informatics Laboratory}{August 2021 - Present}
+            \begin{itemize}[label=\bullet]
+                \item{Development of deep learning-based fall statement detection model}
+                \item{Network analysis for drug prescription patterns}
+            \end{itemize}
+        \resumeSubheading
+        {Intelligent Clinical Guidance System Development}{Incheon, South Korea}
+            {Nursing Informatics Laboratory}{August 2021 - December 2021}
+            \begin{itemize}[label=\bullet]
+                \item{Topic-modeling for insightful medical data analysis}
+            \end{itemize}
+        \resumeSubheading
+        {Smart Port Traffic Control System}{Seoul, South Korea}
+            {ICT Mentoring, The Federation of Korean Information Industries}{April 2021 - November 2021}
+            \begin{itemize}[label=\bullet]
+                \item{Development of a deep learning-based system for real-time detection of parking conditions}
+                \item{Development of a real-time lane recognition algorithm through image processing}
+            \end{itemize}
+    \end{itemize}
+    
+    %---------------Conferences---------------------------
+    \section{Conferences}
+    \begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+        \item {Insook Cho, EunJu Lee, and \textbf{Dong-geon Lee}. Effects of Language Differences on Inpatient Fall Detection Using Deep Learning. \textit{MedInfo 2023: The 19th World Congress on Medical and Health Informatics}, Sydney, July 2023. - Accepted as Poster}
+        
+        \item {\textbf{Dong-geon Lee}, EunJu Lee, and Insook Cho. Bridging the Reporting Gap of Inpatient Falls to Improve Safety Practices Using Deep-Learning-Based Language Models and Multisite Data. \textit{AMIA 2023 Clinical Informatics Conference}, Chicago, United States, May 2023. - Accepted as Oral Presentation (Peer Reviewed)}
+        
+        \item {\href{https://doi.org/10.3745/PKIPS.y2021m11a.1342}{Changhun Koo*, Yoonjoo Jung*, and \textbf{Dong-geon Lee*}. Through deep learning-based video processing, Design and implementation of Smart Port Parking Information System. In \textit{Proceedings of the Annual Conference of KIPS 2021}, Yeosu, South Korea, November 2021. (*: Co-First Author) - Oral Presentation}}
+    \end{enumerate}
+    
+    %---------------Teaching Experiences---------------------------
+    \section{Teaching Experiences}
+    \begin{itemize}[leftmargin=*,label=]
+        \resumeSubheading
+        {Teaching Assistant}{Incheon, South Korea}
+            {\href{http://bit.ly/3Uu4LTi}{Information and Communication Engineering}, \href{https://eng.inha.ac.kr/eng/index.do}{Inha University}}{March 2023 - Present}
+            \begin{itemize}[label={\bullet}]
+                \item{Courses: \textit{Algorithm Capstone Design, Introduction to AI Programming}
+            \end{itemize}
+        \resumeSubheading
+        {Computer Programming Instructor (Part-time)}{Seoul, South Korea}
+            {\href{https://jamcoding.co.kr/}{Jamcoding, Co., LTD}}{October 2021 - Present}
+            \begin{itemize}[label=\bullet]
+                \item{Courses: \textit{Data Analysis and Visualization, Python\&C Programming and Algorithms}}
+            \end{itemize}
+    \end{itemize}
+
+    %---------------Technical Skills---------------------------
+    \section{Technical Skills}
+    \begin{enumerate}[noitemsep, leftmargin=*,label=]
+        \item{
+            \begin{itemize}[label=\bullet]
+                \item{\textbf{Programming Languages}: Python, C++, C, JavaScript}
+                \item{\textbf{Frameworks and Libraries}: PyTorch, Keras, TensorFlow, KoNLPy, OpenCV}
+                \item{\textbf{Systems and Tools}: Git, Linux, MySQL, Amazon Web Services, Arduino, \LaTeX}
+            \end{itemize}
+        }
+    \end{enumerate}
+    
+    %-----------Certification and License-----------
+    \section{Certification and License}
+    \begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+        \item{\href{https://user-images.githubusercontent.com/73745836/216896341-f17186c1-7883-4dc6-b2a5-5063e2fc5e80.jpeg}{Deep Learning Course (Advanced)}, \textit{\href{http://fvt.inha.ac.kr/}{Inha Innovation Sharing University for Future Vehicle Technology}}, January 2023.}
+        \item{\href{https://courses.nvidia.com/certificates/3635de0b089446bb8e95c101b05518e4/}{Building Transformer-Based Natural Language Processing Applications}, \textit{\href{https://www.nvidia.com/en-us/training/}{NVIDIA Deep Learning Institute}}, August 2022.}
+        \item{\href{https://courses.nvidia.com/certificates/825e75c11f3541fa9c196832ffa1db8d/}{Fundamentals of Deep Learning}, \textit{\href{https://www.nvidia.com/en-us/training/}{NVIDIA Deep Learning Institute}}, August 2022.}
+        \item{\href{https://user-images.githubusercontent.com/73745836/163787775-86eb9285-5eeb-4539-aed0-0fb977c102ff.jpg}{Amazon Web Services (AWS) Machine Learning Course}, \textit{\href{http://fvt.inha.ac.kr/}{\href{https://user-images.githubusercontent.com/73745836/163787768-c1565a01-57f1-41e0-a436-44a214caaa38.jpg}{Inha Innovation Sharing University for Future Vehicle Technology}}}, February 2022.}
+        \item{Understanding Deep Learning, \textit{Hancom Academy}, February 2022.}
+    \end{enumerate}
+
+    %---------------Patent---------------------------
+    \section{Patent}
+    \begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+        \item{\textbf{System for providing parking information and control method}, KR-Application No. 10-2021-0178090, South Korea, December 2021.}
+    \end{enumerate}
+
+    %---------------Language Skills---------------------------
+    \section{Language Skills}
+    {\textbf{Advanced level of English proficiency} demonstrated by a TOEIC score of 805 obtained in February 2023.} 
+
+\end{document}
+%-------------------------------------------
