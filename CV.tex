@@ -12,6 +12,7 @@
 \usepackage[english]{babel}
 \usepackage{lastpage}
 \usepackage{fancyhdr}
+\usepackage{emoji}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -59,9 +60,10 @@
 \begin{document}
     \pagestyle{fancy}
     \thispagestyle{fancy}
+    % \setemojifont{Apple Color Emoji}
     
     \begin{center}
-        {\LARGE{\bf{Dong-geon Lee}}\\}
+        {\LARGE{\bf{DongGeon Lee}}\\}
     \end{center}
     
     \vspace{-14pt}
@@ -79,7 +81,7 @@
     %----------Research Interests-----------------
     \section{\\Research Interests}
     \begin{enumerate}[noitemsep, leftmargin=*,label={}]
-    \item{Natural language processing, Large language models, Data-centric AI, Parameter-efficient Fine-tuning}
+    \item{Natural language processing, Large language model (LLM), LLM Quantization, \\Learning from limited data, Domain-specific knowledge distillation}
     \end{enumerate}
     
     %-----------Education-----------------
@@ -89,8 +91,8 @@
         {\textbf{B.S.} in \textbf{\href{http://bit.ly/3Uu4LTi}{Information and Communication Engineering}}}{March 2018 - Present}{\href{https://eng.inha.ac.kr/eng/index.do}{Inha University}}{Incheon, South Korea}
             \begin{itemize}[label=\bullet]
                 \item{Expected Graduation Date: February 16, 2024}
-                \item{GPA: 3.77 / 4.5 (Major GPA: 3.89 / 4.5)}
-                \item{Relevant Coursework: \textit{AI Applications, Signal and Systems, Digital Image Processing, \\Data Structure, Algorithm Capstone Design, Database Capstone Design}}
+                % \item{GPA: 3.77 / 4.5 (Major GPA: 3.89 / 4.5)}
+                \item{Relevant Coursework: \textit{AI Applications, Signal and Systems, Database Capstone Design\\Algorithm Capstone Design, Data Structure, Digital Image Processing, Numerical Analysis}}
             \end{itemize}
     \end{itemize}
     
@@ -107,13 +109,21 @@
     
     %---------------Projects---------------------------
     \section{Projects}
-    \begin{itemize}[leftmargin=*,label=]
+    \begin{itemize}[leftmargin=*,label=]       
         \resumeSubheading
         {\textbf{Big Data-Driven Aviation Safety Management Technology}}{March 2023 - Present}
             {\href{http://dilab.inha.ac.kr/}{Data Intelligence Laboratory}, Inha University}{Incheon, South Korea}
             \begin{itemize}[label=\bullet]
                 \item{(Ongoing) Development of accident cause extraction model using Sentence-BERT}
             \end{itemize}
+
+        \resumeSubheading
+        {\textbf{Contribution to \href{https://huggingface.co/}{Hugging Face} \texttt{\href{https://github.com/huggingface/transformers}{Transformers}} Library}}{November 2023}
+            {Open-source Contribution}{Online}
+            \begin{itemize}[label=\bullet]
+                \item{\href{https://github.com/huggingface/transformers/pull/27184}{Improve \texttt{PyTorch} examples of uses of Hugging Face \texttt{Transformers} for better readability}}
+            \end{itemize}
+            
         \resumeSubheading
         {\textbf{FallSafe: Reducing Falls with Clinical Data}}{January 2022 - June 2023}
             {Nursing Informatics Laboratory, Inha University}{Incheon, South Korea}
@@ -221,7 +231,7 @@
         \item{
             \begin{itemize}[label=\bullet]
                 \item{\textbf{Programming Languages}: Python, C++, C, JavaScript, Shell Script}
-                \item{\textbf{Frameworks and Libraries}: PyTorch, Keras, TensorFlow, Hugging Face, OpenCV}
+                \item{\textbf{Frameworks and Libraries}: \texttt{PyTorch}, \texttt{Keras}, \texttt{TensorFlow}, Hugging Face, \texttt{OpenCV}}
                 \item{\textbf{Systems and Tools}: Git, Linux, MySQL, AWS, Arduino, \LaTeX}
             \end{itemize}
         }
